@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>欢迎来到滕云飞的服务器</h1>
+	<div id="visitor_info">
+		<p  th:if="${userIp != null}" >来访者的IP地址为：<span th:text="${userIp}"></span></p>
+	</div>
+</body>
+</html>
